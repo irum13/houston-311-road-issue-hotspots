@@ -1,0 +1,28 @@
+{
+  "raw_records_loaded": 580538,
+  "filtered_records": 8396,
+  "duplicates_removed": 1,
+  "flooding_complaints": 764,
+  "pothole_complaints": 7632,
+  "valid_mapped_records": 8395,
+  "zip_codes_with_overlap": 77,
+  "date_min": "2025-01-01",
+  "date_max": "2026-05-20",
+  "peak_by_type": {
+    "Flooding": {
+      "month": "2026-04",
+      "complaints": 88
+    },
+    "Pothole": {
+      "month": "2025-02",
+      "complaints": 723
+    }
+  },
+  "top_priority_zip_codes": [
+    "77007",
+    "77008",
+    "77082",
+    "77006",
+    "77009"
+  ]
+}

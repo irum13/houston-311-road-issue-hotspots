@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="610" viewBox="0 0 1100 610">
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+  <text x="45.0" y="60.0" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#0f172a" text-anchor="start">Priority Scoring Logic</text>
+  <text x="45.0" y="92.0" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" fill="#64748b" text-anchor="start">A transparent screening score for ZIP codes where road surface and drainage complaints overlap.</text>
+  <rect x="65" y="140" width="300" height="150" rx="18" fill="white" stroke="#fed7aa" stroke-width="2"/>
+  <rect x="400" y="140" width="300" height="150" rx="18" fill="white" stroke="#e9d5ff" stroke-width="2"/>
+  <rect x="735" y="140" width="300" height="150" rx="18" fill="white" stroke="#fbcfe8" stroke-width="2"/>
+  <text x="95.0" y="190.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#9a3412" text-anchor="start">Pothole Volume</text>
+  <text x="95.0" y="240.0" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800" fill="#c2410c" text-anchor="start">+1 point</text>
+  <text x="95.0" y="267.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600" fill="#64748b" text-anchor="start">per complaint</text>
+  <text x="430.0" y="190.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#6b21a8" text-anchor="start">Flooding Volume</text>
+  <text x="430.0" y="240.0" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800" fill="#7e22ce" text-anchor="start">+2 points</text>
+  <text x="430.0" y="267.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600" fill="#64748b" text-anchor="start">per complaint</text>
+  <text x="765.0" y="190.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#be185d" text-anchor="start">Overlap Signal</text>
+  <text x="765.0" y="240.0" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800" fill="#db2777" text-anchor="start">+10 points</text>
+  <text x="765.0" y="267.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600" fill="#64748b" text-anchor="start">if both types appear</text>
+  <rect x="70" y="340" width="960" height="92" rx="18" fill="#111827"/>
+  <text x="110.0" y="397.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="start">Priority Score = Potholes + 2 x Flooding + 10 x Overlap Flag</text>
+  <text x="75.0" y="486.0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#0f172a" text-anchor="start">Why this matters:</text>
+  <text x="75.0" y="522.0" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" fill="#334155" text-anchor="start">Flooding is weighted higher because drainage-related issues can compound pavement damage and road safety risk.</text>
+  <text x="75.0" y="552.0" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" fill="#334155" text-anchor="start">The overlap bonus highlights ZIP codes where pothole and flooding reports coexist during the study window.</text>
+</svg>
