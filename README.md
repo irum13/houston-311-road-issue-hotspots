@@ -145,4 +145,4 @@ The script regenerates processed CSV files in `data/processed/` and SVG visuals 
 This began as an academic/poster project and was rebuilt into a reproducible analytics portfolio case study.
 
 - Updated poster with rebuilt metrics: [poster/houston_311_updated_poster.svg](poster/houston_311_updated_poster.svg)
-- Original poster draft: [poster/Irum_Naureen_CNST_Poster.pdf](poster/Irum_Naureen_CNST_Poster.pdf)
+
